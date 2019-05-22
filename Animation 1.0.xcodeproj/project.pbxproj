@@ -22,6 +22,7 @@
 		E47749602294FBD400B4A158 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E47749632294FBD400B4A158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E47749652294FBD400B4A158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E477496E22953DF800B4A158 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +55,39 @@
 		E47749582294FBD100B4A158 /* Animation 1.0 */ = {
 			isa = PBXGroup;
 			children = (
+				E477496D2294FC4B00B4A158 /* Controller */,
+				E477496C2294FC3D00B4A158 /* View */,
+				E477496B2294FBF800B4A158 /* Supporting Files */,
+				E477496E22953DF800B4A158 /* README.md */,
+			);
+			path = "Animation 1.0";
+			sourceTree = "<group>";
+		};
+		E477496B2294FBF800B4A158 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				E47749592294FBD100B4A158 /* AppDelegate.swift */,
-				E477495B2294FBD100B4A158 /* ViewController.swift */,
-				E477495D2294FBD200B4A158 /* Main.storyboard */,
 				E47749602294FBD400B4A158 /* Assets.xcassets */,
 				E47749622294FBD400B4A158 /* LaunchScreen.storyboard */,
 				E47749652294FBD400B4A158 /* Info.plist */,
 			);
-			path = "Animation 1.0";
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E477496C2294FC3D00B4A158 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E477495D2294FBD200B4A158 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E477496D2294FC4B00B4A158 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E477495B2294FBD100B4A158 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,7 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5MS39QS696;
-				INFOPLIST_FILE = "Animation 1.0/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Animation 1.0/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +328,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5MS39QS696;
-				INFOPLIST_FILE = "Animation 1.0/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Animation 1.0/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
