@@ -39,6 +39,7 @@
 		E477494D2294FBD100B4A158 = {
 			isa = PBXGroup;
 			children = (
+				E477496E22953DF800B4A158 /* README.md */,
 				E47749582294FBD100B4A158 /* Animation 1.0 */,
 				E47749572294FBD100B4A158 /* Products */,
 			);
@@ -58,7 +59,6 @@
 				E477496D2294FC4B00B4A158 /* Controller */,
 				E477496C2294FC3D00B4A158 /* View */,
 				E477496B2294FBF800B4A158 /* Supporting Files */,
-				E477496E22953DF800B4A158 /* README.md */,
 			);
 			path = "Animation 1.0";
 			sourceTree = "<group>";
