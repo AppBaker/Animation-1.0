@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EA0-YS-cmC">
-    <device id="retina6_1" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,46 +15,54 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Animation_1_0" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="wRL-8r-FfU">
-                                <rect key="frame" x="60" y="54" width="294" height="709"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="wRL-8r-FfU">
+                                <rect key="frame" x="60" y="30" width="200" height="488"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Разведение пяток 1/24" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6JN-KM-Jzu">
-                                        <rect key="frame" x="0.0" y="0.0" width="294" height="47"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="8IM-Ai-8lM">
-                                        <rect key="frame" x="0.0" y="47" width="294" height="539"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="438"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="leftLeg" translatesAutoresizingMaskIntoConstraints="NO" id="Wzh-FM-IUB">
-                                                <rect key="frame" x="0.0" y="0.0" width="137" height="539"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="90" height="438"/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rightLeg" translatesAutoresizingMaskIntoConstraints="NO" id="T8p-ja-HBq">
-                                                <rect key="frame" x="157" y="0.0" width="137" height="539"/>
+                                                <rect key="frame" x="110" y="0.0" width="90" height="438"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Soj-RS-MZk">
-                                        <rect key="frame" x="0.0" y="586" width="294" height="47"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWa-Yo-0mC">
-                                        <rect key="frame" x="0.0" y="633" width="294" height="76"/>
-                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <state key="normal" title="Start">
-                                            <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="startButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pcN-76-25x"/>
-                                        </connections>
-                                    </button>
+                                    <stackView opaque="NO" contentMode="scaleAspectFit" verticalHuggingPriority="249" distribution="fillEqually" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="ZYR-EK-ge7">
+                                        <rect key="frame" x="0.0" y="438" width="200" height="50"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dqp-Hy-PhS">
+                                                <rect key="frame" x="0.0" y="0.0" width="40" height="50"/>
+                                                <state key="normal" title="Button" image="moveLeftSolid"/>
+                                                <connections>
+                                                    <action selector="moveLeftButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jct-sl-AfB"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWa-Yo-0mC">
+                                                <rect key="frame" x="80" y="0.0" width="40" height="50"/>
+                                                <state key="normal" title="Start" image="playSolid">
+                                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="startButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pcN-76-25x"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vi6-uh-O4Q">
+                                                <rect key="frame" x="160" y="0.0" width="40" height="50"/>
+                                                <state key="normal" title="Button" image="moveRightSolid"/>
+                                                <connections>
+                                                    <action selector="moveRightButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RQ2-rE-8nw"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="ZYR-EK-ge7" secondAttribute="height" multiplier="4:1" id="hEW-i1-jen"/>
+                                        </constraints>
+                                    </stackView>
                                 </subviews>
                             </stackView>
                         </subviews>
@@ -69,8 +77,9 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="foot" image="foots_icon" id="J0L-bY-bp9"/>
                     <connections>
-                        <outlet property="countLabel" destination="Soj-RS-MZk" id="1mJ-pl-5qx"/>
                         <outlet property="leftLegImageView" destination="Wzh-FM-IUB" id="Au1-xG-ABQ"/>
+                        <outlet property="moveLeftButton" destination="dqp-Hy-PhS" id="l7x-gX-Cbh"/>
+                        <outlet property="moveRightButton" destination="Vi6-uh-O4Q" id="ceS-vV-D7i"/>
                         <outlet property="rightLegImageView" destination="T8p-ja-HBq" id="DKf-md-UuO"/>
                         <outlet property="startButton" destination="gWa-Yo-0mC" id="eo6-D5-Ar1"/>
                     </connections>
@@ -79,47 +88,13 @@
             </objects>
             <point key="canvasLocation" x="-723" y="897"/>
         </scene>
-        <!--cup-->
-        <scene sceneID="3fd-dK-V1j">
-            <objects>
-                <viewController id="O5I-31-uOO" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="IGA-OW-vNt">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="cBP-ib-KEf"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="cup" image="cup_icon" id="aE6-u8-HGz"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1bd-wL-J5Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="649" y="897"/>
-        </scene>
-        <!--Tab Bar Controller-->
-        <scene sceneID="F7Z-P9-M99">
-            <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="EA0-YS-cmC" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" itemPositioning="fill" id="EBl-ea-jGc">
-                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="selectedImageTintColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </tabBar>
-                    <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="aYu-3R-P7a"/>
-                        <segue destination="O5I-31-uOO" kind="relationship" relationship="viewControllers" id="aa8-z2-MTv"/>
-                    </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7G5-MW-068" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-39" y="100"/>
-        </scene>
     </scenes>
     <resources>
-        <image name="cup_icon" width="23" height="35"/>
         <image name="foots_icon" width="31" height="37"/>
         <image name="leftLeg" width="91" height="234"/>
+        <image name="moveLeftSolid" width="278" height="183"/>
+        <image name="moveRightSolid" width="278" height="183"/>
+        <image name="playSolid" width="183" height="183"/>
         <image name="rightLeg" width="91" height="234"/>
     </resources>
 </document>
